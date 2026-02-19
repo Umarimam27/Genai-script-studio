@@ -3,7 +3,7 @@ from transformers import pipeline
 print("Loading AI model... please wait ⏳")
 
 generator = pipeline(
-    "text2text-generation",
+    "text-generation",
     model="google/flan-t5-base"
 )
 
